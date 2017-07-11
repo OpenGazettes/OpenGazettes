@@ -8,7 +8,12 @@
 # Site settings
 title: Open Gazettes Kenya
 email: gazettes@codeforafrica.org
-url: http://opengazettes.or.ke
+url: http://opengazettes.or.ng
+jurisdiction: Kenya
+jurisdiction_adjective: Kenyan
+jurisdiction_code: KE
+source_attribution: National Council for Law Reporting (Kenya Law)
+source_attribution_link: http://kenyalaw.org/kl/
 enforce_ssl: opengazettes.or.ke
 baseurl:
 description: Making Government Gazettes freely available.
@@ -36,6 +41,6 @@ exclude: [vendor]
 
 google_analytics: UA-33350783-11
 
-aleph_url: https://search.opengazettes.or.ke
+aleph_url: https://opengazettes.co
 s3_url: https://archive.opengazettes.or.ke
 

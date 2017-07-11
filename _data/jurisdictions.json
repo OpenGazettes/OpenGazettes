@@ -1,6 +1,7 @@
 {
     "KE": {
         "name": "Kenya",
+        "collection_filename": "data.jsonlines",
         "search_collection": 0
     }
 }
