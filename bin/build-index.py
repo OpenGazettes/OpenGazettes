@@ -54,7 +54,8 @@ def build(gazettes, gazette, stats, juri):
     iyear = int(year)
     if 'archive_url' not in gazette:
         gazette['archive_url'] = 'https://s3-eu-west-1.amazonaws.com/' \
-                                 'cfa-opengazettes-ng/gazettes/' + \
+                                 'cfa-opengazettes-' + juri.lower() + \
+                                 '/gazettes/' + \
                                  gazette['files'][0]['path']
 
     gazettes[juri]['gazettes'][year].append(gazette)
@@ -72,6 +73,7 @@ def build_options(gazettes, juri, stats, failed):
         gazette = json.loads(line)
 
         # Don't include gazette if it has an error
+
         gazette_files = gazette.get('files')
         if gazette_files:
             if failed:
