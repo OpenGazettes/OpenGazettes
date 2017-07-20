@@ -116,7 +116,6 @@ def build_index(gazette_file, failed=False):
         juris['years'] = sorted(list(juris['years']))
         for items in juris['gazettes'].itervalues():
             items.sort(key=lambda g: [g['publication_date'][:7],
-                                      g['gazette_volume'],
                                       g['gazette_number'],
                                       g['gazette_title']])
 

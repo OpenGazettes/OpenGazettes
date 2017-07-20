@@ -6,15 +6,15 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Open Gazettes [Country Name]
+title: Open Gazettes Senegal
 email: gazettes@codeforafrica.org
-url: http://opengazettes.or.ng
-jurisdiction: [Country Name]
-jurisdiction_adjective: [Country Adjective]
-jurisdiction_code: [Country Code]
-source_attribution: [Source Attribution]
-source_attribution_link: [Source Attribution Link]
-enforce_ssl: opengazettes.or.ng
+url: http://senegal.opengazettes.co
+jurisdiction: Senegal
+jurisdiction_adjective: Senegalese
+jurisdiction_code: SN
+source_attribution: Republic Du Senegal Journal Officiel
+source_attribution_link: http://www.jo.gouv.sn/spip.php
+enforce_ssl: senegal.opengazettes.co
 baseurl:
 description: Making Government Gazettes freely available.
 twitter:
@@ -37,10 +37,10 @@ defaults:
 
 # Build settings
 markdown: kramdown
-exclude: [vendor]
+exclude: [vendor] 
 
-google_analytics: UA-33350783-11
+google_analytics: UA-100279361-2
 
-aleph_url: https://opengazettes.co
-s3_url: http:/[s3_url].amazonaws.com/
+aleph_url: https://search.opengazettes.or.ke/documents2
+s3_url: http://senegal.opengazettes.co.s3-website-eu-west-1.amazonaws.com/
 
