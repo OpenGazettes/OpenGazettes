@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
-gem 'jekyll'
-gem 'jekyll-seo-tag'
-gem 'jekyll-sitemap'
+gem 'jekyll', '>= 3.6.3'
+gem 'jekyll-seo-tag', '>= 2.2.3'
+gem 'jekyll-sitemap', '>= 1.1.1'
